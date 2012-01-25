@@ -12,7 +12,7 @@ use base qw(Class::Accessor);
 __PACKAGE__->mk_accessors(qw(cpan destination quiet));
 $Archive::Extract::PREFER_BIN = 1;
 
-our $VERSION = '0.30';
+our $VERSION = '0.31';
 
 sub new {
     my $class = shift;
